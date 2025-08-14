@@ -17,7 +17,7 @@ pipeline {
             steps {
                 bat '"C:\\Users\\sindh\\AppData\\Local\\Programs\\Python\\Python312\\python.exe" -m venv venv'
                 bat '.\\venv\\Scripts\\python.exe -m pip install --upgrade pip'
-                bat '.\\venv\\Scripts\\pip install panda numpy tensorflow flask'
+                bat '.\\venv\\Scripts\\pip install pandas numpy tensorflow flask'
             }
         }
 
@@ -28,4 +28,5 @@ pipeline {
         }
     }
 }
+
 
